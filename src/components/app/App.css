@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  width: 100%;
+  height: calc(100vh - 30px);
+  background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+  padding-top: 30px;
+}
+.wrapper .page-item {
+  color: red;
+  padding: 0 200px;
+}

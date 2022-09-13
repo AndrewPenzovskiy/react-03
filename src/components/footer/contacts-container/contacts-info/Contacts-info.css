@@ -1,0 +1,26 @@
+.contacts__info {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arodora Pro;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #E4E4E4;
+}
+.contacts__info ul {
+    /*margin: 0;*/
+}
+.contacts__info ul li {
+    list-style: none;
+}
+.contacts__info ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+.contacts__info ul:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contacts__info ul:last-child li {
+    margin: 0;
+}

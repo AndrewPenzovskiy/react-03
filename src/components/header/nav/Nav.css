@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    gap: 150px;
+}
+nav a {
+    color: #F4F4F4;
+    text-decoration: none;
+}
+nav .item.active {
+    border-bottom: 2px solid orange;
+}
+@media (max-width: 1426px) {
+    nav {
+        gap: 80px;
+    }
+}

@@ -1,0 +1,13 @@
+.content__description {
+    max-width: 430px;
+}
+.content__description p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+@media (max-width: 1328px) {
+    .content__description p {
+        margin-bottom: 100px;
+    }
+}

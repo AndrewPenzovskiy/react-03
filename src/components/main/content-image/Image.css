@@ -1,0 +1,7 @@
+.content__image {
+    display: flex;
+    align-items: flex-end;
+}
+.content__image img {
+    max-width: 520px;
+}

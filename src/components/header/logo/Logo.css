@@ -1,0 +1,19 @@
+.navigation__logo {
+    display: flex;
+    align-items: center;
+    font-family: Cambria;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.navigation__logo img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+
+
+
+
+/**/

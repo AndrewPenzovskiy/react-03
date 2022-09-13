@@ -1,0 +1,12 @@
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+@media (max-width: 1426px) {
+    .header__content {
+        padding: 0 130px;
+    }
+}
+@media (max-width: 1328px) {
+}

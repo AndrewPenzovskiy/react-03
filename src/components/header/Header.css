@@ -1,0 +1,13 @@
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    margin-bottom: 65px;
+
+}
+@media (max-width: 1426px) {
+    .header__navigation {
+        padding: 0 90px;
+    }
+}

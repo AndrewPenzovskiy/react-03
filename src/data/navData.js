@@ -1,0 +1,1 @@
+export const navDataMain = ['Home', 'About me', 'Portfolio', 'Contact']

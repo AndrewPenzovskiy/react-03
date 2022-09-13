@@ -1,0 +1,14 @@
+.contacts__container {
+    padding: 20px 400px;
+    list-style: none;
+}
+@media (max-width: 1426px) {
+    .contacts__container {
+        padding: 20px 200px;
+    }
+}
+@media (max-width: 1150px) {
+    .contacts__container {
+        padding: 20px 110px;
+    }
+}
