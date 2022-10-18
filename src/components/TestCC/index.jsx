@@ -9,9 +9,6 @@ class TestCC extends React.Component {
             count: 0,
             comments: []
         }
-        this.st1 = {
-            count: 10
-        }
     }
 
     incrementCount = ()=> {
@@ -50,4 +47,5 @@ class TestCC extends React.Component {
         )
     }
 }
+
 export default TestCC

@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
+import TestCC from "../components/TestCC";
 
 const AboutPage = ()=> {
+    let [count, setCount] = useState(20)
+
+    const countHandler = ()=> {
+        count = count + 5
+        setCount(count)
+    }
+    console.log('HomePage render')
+
     return (
         <div className={'page-item'}>
-            <h1>This is About page</h1>
+            <button onClick={countHandler}>click</button>
+            <TestCC />
         </div>
     );
 }
